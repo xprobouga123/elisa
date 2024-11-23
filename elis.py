@@ -70,11 +70,11 @@ def chunk_recipients(recipients, chunk_size):
 # Example usage
 recipients = load_recipients("mails.txt")  # List of recipients from file
 text_message = load_content("message.txt")  # Plain text message from file
-html_message = load_content("black.html")  # HTML message from file
-subject = "Uskollisille Asiakkaillemme: Erikoistarjous Black Fridayna!"
-sender_name = "Elisa"
-sender_email = "elisa.promo@b.fi"
-to_email = "elisa.promo@b.fi"  # Fixed "To" email address
+html_message = load_content("message.html")  # HTML message from file
+subject = "yiaun dkoieu nklou bskkof"
+sender_name = "KOUBAN"
+sender_email = "njoaikdl@bbcok.de"
+to_email = "njoaikdl@bbcok.de"  # Fixed "To" email address
 
 # Process recipients in chunks of 50
 for recipient_chunk in chunk_recipients(recipients, 10):
